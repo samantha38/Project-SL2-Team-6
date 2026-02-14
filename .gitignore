@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Next.js build
+.next/
+out/
+
+# SQLite database (contains hashed passwords)
+auth.db
+auth.db-shm
+auth.db-wal
+
+# Environment
+.env
+.env.local
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Gemini AI artifacts
+.gemini/

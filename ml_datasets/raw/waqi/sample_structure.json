@@ -1,0 +1,26 @@
+{
+  "delhi": {
+    "aqi": 150,
+    "pm25": 65,
+    "pm10": 120,
+    "temperature": 28,
+    "humidity": 45,
+    "pressure": 1013
+  },
+  "mumbai": {
+    "aqi": 140,
+    "pm25": 60,
+    "pm10": 110,
+    "temperature": 30,
+    "humidity": 70,
+    "pressure": 1012
+  },
+  "singapore": {
+    "aqi": 50,
+    "pm25": 15,
+    "pm10": 25,
+    "temperature": 28,
+    "humidity": 80,
+    "pressure": 1010
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "esp32-sensor-dashboard",
+  "version": "1.0.0",
+  "description": "ESP32 Sensor Dashboard with WebSocket and Next.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "powershell -ExecutionPolicy Bypass -Command \"& {.\\kill-port.ps1}\" && node server-integrated.js",
+    "dev:next": "cd nextjs-dashboard && npm run dev",
+    "dev:server": "powershell -ExecutionPolicy Bypass -File .\\kill-port.ps1 && node server.js",
+    "build:next": "cd nextjs-dashboard && npm run build",
+    "setup": "cd nextjs-dashboard && npm install",
+    "postinstall": "cd nextjs-dashboard && npm install",
+    "kill-port": "powershell -ExecutionPolicy Bypass -File .\\kill-port.ps1"
+  },
+  "keywords": [
+    "esp32",
+    "sensor",
+    "dashboard",
+    "websocket",
+    "nextjs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.6.2",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "groq-sdk": "^0.37.0",
+    "jsonwebtoken": "^9.0.3",
+    "ws": "^8.18.3"
+  }
+}
